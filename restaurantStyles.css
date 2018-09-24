@@ -1,0 +1,39 @@
+    
+footer, header { 
+			
+			background-color: purple;
+
+			align-content: center;
+		} 
+
+
+#title {
+	font-family: verdana;
+}
+		
+body{background-color: lightcyan;}
+
+ 
+ a:visited {
+	 
+			color : red;
+	 
+			}
+	 
+a:hover {
+			background-color: pink;
+			font-weight: bold;
+			
+		}
+		
+a:active {
+	
+		text-decoration: none;
+		
+	
+		}
+		
+		
+nav {background-color: cyan;	
+
+	}

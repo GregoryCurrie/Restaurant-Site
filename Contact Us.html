@@ -1,0 +1,121 @@
+<DOCTYPE html>
+<!html--
+Name: Gregory Currie
+Date Created: 9/15/2018
+Most Recent revision: 9/15/2018
+-->
+<html lang="en">
+<head>
+<title>Contact Us</title>
+
+		<!––   **********This is the start of the internal CSS ********* ––>
+		<style type="text/css"> 
+        
+			label{ font-weight: bold; }
+            #mainsection{ background-color: lightblue; }
+			
+		</style>    
+</head>
+
+<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        
+        <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="restaurantStyles.css">
+
+
+<body onload="alert('This site is best viewed with java. Please enable');">
+<div align="center">
+<header class="jumbotron">
+<h1 id="title">Taste of the Soul <br /> New Taste of Soul restaurant location coming to the Raleigh Area</h1>
+    </div>
+</header>
+
+<nav>
+<hr />
+
+			<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="Home.html"><span class="oi oi-home"><img src="https://mbtskoudsalg.com/images/free-home-button-png-4.png" width=15px length=10px></span>Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="Menu.html">Menu</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="Contact%20Us.html">Contact Us</a>
+  </li>
+</ul>
+<hr />
+    
+</nav>
+
+<div id="mainsection">
+    
+<div align="center">
+    
+<form name="contact" action="fakepage.html" method="post" onreset="resetForm()"; onsubmit="return validateItems();"> 
+    
+    <label for="Name"> Name: </label> <input type="text" name="CustomerName" /><br /> 
+    
+    <label for="Email">Email: </label> <input type="text" name="CustomerEmail" /><br />
+    
+    <label for="Phone">Phone: </label> <input type="Phone" name="CustomerPhone" /><br />
+    
+    <label for="Reason for Inquiry">Reason for Inquiry: </label> <select name="Inquiries"> 
+					<option value="Catering">Catering</option>
+					<option value="Private Party">Private Party</option>
+					<option value="Feedback">Feedback</option>
+					<option value="Other">Other</option> 
+					</select>
+					<br />
+
+    <label for="Additional Information">Additional Information: </label> <textarea name="Addtional Information"></textarea><br />
+
+    <label for="Name">Have you been to the Restaurant? </label> <input type="radio" name="answer" checked />No <input type="radio" name="answer" checked />Yes <br /> 
+    
+    <label for="Best days to contact you">Best Days to Contact you: </label> 
+	  
+	<input type="checkbox" name="dayofweek" value="Monday" />M
+	
+    <input type="checkbox" name="dayofweek" value="Tuessday" />T
+	
+    <input type="checkbox" name="dayofweek" value="W" />W
+	
+    <input type="checkbox" name="dayofweek" value="TH" />Th
+	
+	<input type="checkbox" name="dayofweek" value="F" />F
+	
+    <br />
+	
+	<input type="Submit" value = "Send Request" /> 
+
+</form>
+    
+</div>  
+    
+    </div>
+    
+
+
+	
+<footer align="center">
+		<hr />
+		
+		<p> 111 Kashue Ln Charlotte, NC 28723 
+			<br />
+			 704-313-2276 
+		</p>
+		
+	</footer>
+
+<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
